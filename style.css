@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Inter';
+}
+
+.navigation .banner {
+    background-color: #001525;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    gap: 10px;
+    padding: 10px 0 10px;
+}
+
+.navigation .banner .middle {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.navigation .banner .middle .announcement {
+    text-transform: uppercase;
+    background-color: #F3F0EC;
+    font-weight: 400;
+    font-size: 11px;
+    height: 20px;
+    width: 44px;
+    padding: 3px 8px;
+    border-radius: 100px;
+    color: #001525;
+}
+
+.navigation .banner .middle p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+
+}

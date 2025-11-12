@@ -6,7 +6,11 @@
     font-family: 'Inter';
 }
 
-.navigation .banner {
+body {
+    background-color: grey;
+}
+
+.navbar .banner {
     background-color: #001525;
     display: flex;
     flex-direction: row;
@@ -16,7 +20,7 @@
     padding: 10px 0 10px;
 }
 
-.navigation .banner .middle {
+.navbar .banner .middle {
     color: white;
     display: flex;
     justify-content: center;
@@ -24,7 +28,7 @@
     gap: 10px;
 }
 
-.navigation .banner .middle .announcement {
+.navbar .banner .middle .announcement {
     text-transform: uppercase;
     background-color: #F3F0EC;
     font-weight: 400;
@@ -32,13 +36,123 @@
     height: 20px;
     width: 44px;
     padding: 3px 8px;
+    letter-spacing: 8%;
     border-radius: 100px;
+    text-align: center;
     color: #001525;
 }
 
-.navigation .banner .middle p {
+.navbar .banner .middle p {
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
+ 
+}
 
+.navbar .banner .right {
+    width: 16px;
+    height: 16px;
+    margin-right: 16px;
+}
+
+.navbar .banner .right img {
+    padding: 3.6px;
+}
+
+.site-nav {
+    background-color: #FFFFFF;
+    height: 88px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.site-nav .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 56px;
+}
+
+.site-nav .logo img {
+    height: 28px;
+    width: 28px;
+}
+
+.site-nav .logo p {
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 6px;
+    line-height: 120%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation .industries {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.navigation .industries img {
+    width: 14px;
+    height: 14px;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    height: 24px;
+}
+
+.navigation li {
+    list-style: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #2E2E27;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.navigation a:hover {
+    color: lightblue;
+}
+
+.login-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin-right: 52px;
+}
+
+.login-section a {
+    padding: 8px 20px;
+    text-decoration: none;
+}
+
+.login-section .log-in {
+    color: #001525;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.login-section .sign-up {
+    background-color: #306BEA;
+    color: white;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
 }
